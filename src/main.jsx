@@ -5,10 +5,11 @@ import "./index.css";
 // import App from "./App.jsx";
 // import Bio from "./Bio.jsx";
 // import TodoList from "./TodoList.jsx";
-import Animals from "./Animals";
+// import Animals from "./Animals";
+import PackingList from "./PackingList.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Animals />
+    <PackingList />
   </React.StrictMode>
 );
