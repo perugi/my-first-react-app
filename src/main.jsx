@@ -7,10 +7,11 @@ import "./index.css";
 // import TodoList from "./TodoList.jsx";
 // import Animals from "./Animals";
 // import PackingList from "./PackingList.jsx";
-import List from "./List";
+// import List from "./List";
+import Profile from "./Profile.jsx"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <List />
+    <Profile />
   </React.StrictMode>
 );

@@ -1,3 +1,7 @@
 export default function getImageUrl(person) {
-  return "https://i.imgur.com/" + person.imageId + ".jpg";
+  return (
+    "http://imgur.com/" +
+    person.imageId +
+    ".jpg"
+  );
 }
