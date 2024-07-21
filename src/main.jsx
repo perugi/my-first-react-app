@@ -9,11 +9,11 @@ import "./index.css";
 // import PackingList from "./PackingList.jsx";
 // import List from "./List";
 // import Profile from "./Profile.jsx"
-import Gallery from "./Gallery.jsx";
+// import Gallery from "./Gallery.jsx";
+import Form from "./Form.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Gallery />
-    <Gallery />
+    <Form />
   </React.StrictMode>
 );
