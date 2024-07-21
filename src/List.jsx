@@ -3,8 +3,8 @@ import getImageUrl from "./utils.js";
 
 export default function List() {
   const chemists = people.filter((person) => person.profession === "chemist");
-  const listItems = chemists.map((person) => (
-    <li>
+  const listItems = chemists.map((person, index) => (
+    <li key={index}>
       <img src={getImageUrl(person)} alt={person.name} />
       <p>
         <b>{person.name}:</b>
