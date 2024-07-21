@@ -28,8 +28,12 @@ export default function Gallery() {
 
   return (
     <div>
-      <button onClick={handlePrev}>Previous</button>
-      <button onClick={handleNext}>Next</button>
+      <button onClick={handlePrev} disabled={!hasPrev}>
+        Previous
+      </button>
+      <button onClick={handleNext} disabled={!hasNext}>
+        Next
+      </button>
 
       <h1>
         <em>{selectedSculpture.name}</em> by {selectedSculpture.artist}
