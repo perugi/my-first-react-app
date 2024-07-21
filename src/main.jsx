@@ -8,10 +8,12 @@ import "./index.css";
 // import Animals from "./Animals";
 // import PackingList from "./PackingList.jsx";
 // import List from "./List";
-import Profile from "./Profile.jsx"
+// import Profile from "./Profile.jsx"
+import Gallery from "./Gallery.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Profile />
+    <Gallery />
+    <Gallery />
   </React.StrictMode>
 );
